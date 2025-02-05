@@ -1,0 +1,44 @@
+*{
+    background-color: burlywood;
+}
+.head{
+    background-color: burlywood
+}
+.body{
+    display: flex;
+    justify-content: center;
+}
+.body0{
+    background-color:burlywood;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.body1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.username{
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.password{
+    margin-left: 10px;
+    border-radius: 5px;
+}
+button{
+    border-radius: 20px;
+    background-color: rgb(127, 151, 103);
+    
+}
+.body2{
+    display: flex;
+    justify-content: center;
+}
+.dash{
+    text-decoration: none;
+    background-color: rgb(127, 151, 103)
+}

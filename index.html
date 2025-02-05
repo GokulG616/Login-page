@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <div class="body">
+            <img src="test_image-removebg-preview.png">
+        </div>
+        <div class="body0">
+            <h1>Login page</h1>
+        </div>    
+        <div class="body1">
+            <input class="username" type="text" id="usernameinput" placeholder="enter username">
+            <input class="password" type="button" placeholder="enter password">
+        </div>
+        <br><br>
+        <div class="body2">
+            <button><a id="dash">Login</a></button>
+        </div>
+    </div>
+    <script>
+        let colorchng = document.getElementById("dash");
+
+        const handleMouseEvents =() =>{
+            console.log("click");
+            colorchng.style.backgroundColor = "#f5ee62"; 
+        };
+        
+    </script>
+</body>
+<link rel="stylesheet" href="main.js">
+</html>
